@@ -6,7 +6,6 @@ import {
   FaLinkedin,
   FaFacebook
 } from 'react-icons/fa';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { MdEmail } from 'react-icons/md';
 import Logo from '../assets/logo.png';
 import { Link } from 'react-scroll';
@@ -16,34 +15,34 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav)
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
-      <div>
-        <img src={Logo} alt="Logo Image" style={{ width: '50px' }} />
+    <div className="fixed w-full h-[90px] flex justify-between lg:px-[440px] md:px-8 items-center bg-[#0c1e38] text-gray-300 ">
+      <div className=''>
+        <img src={Logo} alt="Logo Image" style={{ width: '50px', height: '70px' }} />
       </div>
 
       {/* menu */}
       <ul className='hidden md:flex'>
-        <li>
+        <li className='hover:text-logo-color ease-in duration-300 font-semibold'>
           <Link to='home' smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li>
+        <li className='hover:text-logo-color ease-in duration-300 font-semibold'>
           <Link to='about' smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li>
+        <li className='hover:text-logo-color ease-in duration-300 font-semibold'>
           <Link to='skills' smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li>
+        <li className='hover:text-logo-color ease-in duration-300 font-semibold'>
           <Link to='work' smooth={true} duration={500}>
             Work
           </Link>
         </li>
-        <li>
+        <li className='hover:text-logo-color ease-in duration-300 font-semibold'>
           <Link to='contact' smooth={true} duration={500}>
             Contact
           </Link>
@@ -60,7 +59,7 @@ const Navbar = () => {
         className={
           !nav
             ? 'hidden'
-            : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
+            : 'md:hidden absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
         }
       >
         <li className='py-6 text-4xl'>
