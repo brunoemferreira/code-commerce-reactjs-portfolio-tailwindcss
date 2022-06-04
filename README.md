@@ -43,12 +43,12 @@ yarn add react-icons
 yarn add react-scroll
 ```
 
-## Links
+## Links Úteis
 
-* [Code Commerce](https://www.youtube.com/watch?v=2kg0z1qNrkw) 40:56 min
+* [Clint Briley - Code Commerce](https://www.youtube.com/watch?v=2kg0z1qNrkw)
 * [TailWind CSS](https://tailwindcss.com)
-* []()
-* []()
+* [React Icons](https://react-icons.github.io/react-icons/)
+* [React Scroll](https://www.npmjs.com/package/react-scroll)
 * []()
 * []()
 * []()
