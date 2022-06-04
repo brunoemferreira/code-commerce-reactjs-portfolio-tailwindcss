@@ -1,4 +1,4 @@
-<div align="center">
+<div>
   <img src="./Assets/top.png" alt="Texto ALT da imagem aqui" width="800"/>
 <div/>
 
